@@ -15,7 +15,7 @@ description: >-                        # used by seo meta and the atom feed
   Technical & Translated Articles by @simplejason.
 
 # fill in the base hostname & protocol for your site, e.g., 'https://username.github.io'
-url: ''
+url: 'https://simplejason.com'
 
 author: simplejason                  # change to your full name
 
@@ -24,18 +24,27 @@ avatar: /assets/img/sample/avatar.png   # support internet resources
 github:
   username: simplejason             # change to your github username
 
+weibo:
+  username: 5803634256             # change to your weibo id
+
+zhihu:
+  username: simplejason             # change to your zhihu id
+
 twitter:
-  username: simplejason            # change to your twitter username
+  username: realsimplejason          # change to your twitter username
+
+instagram:
+  username: realsimplejason             # change to your instagram username
 
 social:
   name: SIMPLEJASON                  # it will shows as the copyright owner in Footer
   email: simplejason.coder@gmail.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/simplejason      # change to your twitter homepage
     - https://github.com/simplejason       # change to your github homepage
+    # - https://twitter.com/realsimplejason      # change to your twitter homepage
     # Uncomment below to add more social links
-    # - https://www.facebook.com/username
+    # - https://www.facebook.com/simplejason
     # - https://www.linkedin.com/in/username
 
 google_site_verification: google_meta_tag_verification # change to your verification string
@@ -62,7 +71,7 @@ google_analytics:
 
 disqus:
   comments: true  # boolean type, the global switch for posts comments.
-  shortname: 'blog-simplejason'    # Fill with your Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+  shortname: 'simplejason'    # Fill with your Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 
 # Prefer color scheme setting.

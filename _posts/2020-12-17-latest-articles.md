@@ -2,8 +2,8 @@
 title: Weekly Articles
 author: simplejason
 date: 2020-12-17 00:28:00 +0800
-categories: [Articles]
-tags: [Quick Links]
+categories: [Blogging, Trending]
+tags: [quick links]
 pin: true
 ---
 

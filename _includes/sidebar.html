@@ -65,11 +65,12 @@
         https://github.com/{{ site.github.username }}
       {%- elsif entry.type == 'twitter' -%}
         https://twitter.com/{{ site.twitter.username }}
-      {%- elsif entry.type == 'email' -%}
-        {% assign email = site.social.email | split: '@' %}
-        javascript:location.href = 'mailto:' + ['{{ email[0] }}','{{ email[1] }}'].join('@')
-      {%- elsif entry.type == 'rss' -%}
-        {{ "/feed.xml" | relative_url }}
+      {%- elsif entry.type == 'instagram' -%}
+        https://www.instagram.com/{{ site.instagram.username }}
+      {%- elsif entry.type == 'weibo' -%}
+        https://weibo.com/u/{{ site.weibo.username }}
+      {%- elsif entry.type == 'zhihu' -%}
+        https://www.zhihu.com/people/{{ site.zhihu.username }}
       {%- else -%}
         {{ entry.url }}
       {%- endif -%}
