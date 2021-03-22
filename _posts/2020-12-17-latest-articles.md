@@ -1,5 +1,5 @@
 ---
-title: Weekly Articles
+title: 最近更新
 author: simplejason
 date: 2020-12-17 00:28:00 +0800
 categories: [Blogging, Trending]
@@ -7,7 +7,8 @@ tags: [quick links]
 pin: true
 ---
 
-# Trending
+# 最新
 
-> See what articles of SIMPLEJASON are most popular with readers in the last week.
+> 最新更新的文章列表
 
+1. [DAG 可视化布局库 - dagre-compound](/posts/dagre-compound-intro/)
