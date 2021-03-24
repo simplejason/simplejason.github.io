@@ -4,4 +4,4 @@ wpm: 180
 # minimum value
 min_time: 1
 
-prompt: min
+prompt: 分钟

@@ -71,6 +71,11 @@
         https://weibo.com/u/{{ site.weibo.username }}
       {%- elsif entry.type == 'zhihu' -%}
         https://www.zhihu.com/people/{{ site.zhihu.username }}
+      {%- elsif entry.type == 'email' -%}
+        {% assign email = site.social.email | split: '@' %}
+        javascript:location.href = 'mailto:' + ['{{ email[0] }}','{{ email[1] }}'].join('@')
+      {%- elsif entry.type == 'rss' -%}
+        {{ "/feed.xml" | relative_url }}
       {%- else -%}
         {{ entry.url }}
       {%- endif -%}

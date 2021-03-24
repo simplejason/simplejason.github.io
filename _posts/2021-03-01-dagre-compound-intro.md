@@ -1,8 +1,8 @@
 ---
 title: DAG 可视化布局库 - dagre-compound
 author: simplejason
-date: 2021-03-01 00:00:00 +0800
-categories: [Dagre, Graph]
+date: 2021-03-01 00:00:01 +0800
+categories: [Graph, dagre]
 tags: [dagre, algorithm, graph]
 ---
 
@@ -25,7 +25,7 @@ tags: [dagre, algorithm, graph]
 
 stackblitz 在线演示：[React Demo](https://stackblitz.com/edit/react-ts-igpdyg?file=Graph.tsx)、[Angular Demo](https://stackblitz.com/edit/angular-ivy-ivy67e?file=src/app/app.component.ts)
 
-API 文档请参考：[API 文档](https://docs.simplejason.com/dc-api)
+API 文档请参考：[API 文档](/posts/dagre-compound-apis/)
 
 ## 安装
 
