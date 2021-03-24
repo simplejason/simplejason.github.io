@@ -10,23 +10,20 @@
 -
   type: twitter
   icon: 'fab fa-twitter'
--
-  type: instagram
-  icon: 'fab fa-instagram'
--
-  type: weibo
-  icon: 'fab fa-weibo'
+#-
+#  type: weibo
+#  icon: 'fab fa-weibo'
 -
   type: zhihu
   icon: 'fab fa-zhihu'
 #-
 #  type: email
-#  icon: 'fas fa-envelope'
+#  icon: 'fab fa-google-plus-g'
 #  noblank: true            # open link in current tab
-#-
-#  type: rss
-#  icon: 'fas fa-rss'
-#  noblank: true
+-
+  type: rss
+  icon: 'fas fa-rss'
+  noblank: true
 
 # Uncomment and complete the url below to enable more contact options
 # -
